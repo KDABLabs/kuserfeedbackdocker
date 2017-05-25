@@ -2,6 +2,8 @@
 
 KUserFeedback is a KDE project located at https://phabricator.kde.org/source/kuserfeedback/.
 
+The Git revision of the KUserFeedback container can be found in `Dockerfile`.
+
 ## KUserFeedback
 The kuserfeedback container is published on Docker Hub as [jangmarker/kuserfeedback](https://hub.docker.com/r/jangmarker/kuserfeedback). It provides
 
