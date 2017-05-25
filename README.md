@@ -3,7 +3,7 @@
 KUserFeedback is a KDE project located at https://phabricator.kde.org/source/kuserfeedback/.
 
 ## KUserFeedback
-The kuserfeedback container is published on Docker Hub as [kdab/kuserfeedback](https://hub.docker.com/r/kdab/kuserfeedback). It provides
+The kuserfeedback container is published on Docker Hub as [jangmarker/kuserfeedback](https://hub.docker.com/r/jangmarker/kuserfeedback). It provides
 
 - Apache with PHP 7 and mod_rewrite
 - KUserFeedback sources
