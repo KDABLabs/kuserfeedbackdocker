@@ -1,0 +1,11 @@
+<If "'${LDAP_ON}' -strcmatch 'TRUE'" >
+    AuthType Basic
+    AuthBasicProvider ldap
+    AuthName "LDAP"
+    <RequireAll>
+        AuthLDAPInitialBindAsUser on
+        AuthLDAPInitialBindPattern (.+) ${LDAP_BIND_PATTERN}
+        AuthLDAPURL "${LDAP_URL}"
+        Require valid-user
+    </RequireAll>
+</If>

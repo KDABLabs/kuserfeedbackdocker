@@ -1,0 +1,4 @@
+export LDAP_ON
+export LDAP_BIND_PATTERN
+export LDAP_URL
+export LDAP_FILTER

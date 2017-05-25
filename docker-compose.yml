@@ -13,6 +13,9 @@ services:
         - MYSQL_USER
         - MYSQL_PASSWORD
         - MYSQL_HOST=mysql
+        - LDAP_ON
+        - LDAP_BIND_PATTERN
+        - LDAP_URL
     mysql:
         image: mysql
         volumes:
