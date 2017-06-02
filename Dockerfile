@@ -1,6 +1,6 @@
 FROM php:7-apache
 
-ENV KUSERFEEDBACK_VERSION=18f4f3518b86429b8301b2f3c04eb3f6950f26d8
+ENV KUSERFEEDBACK_VERSION=21681a1e2e2e8571fe045d3ebd12cb1d0877a96e
 
 RUN a2enmod rewrite authnz_ldap
 RUN apt-get update \
