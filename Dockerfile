@@ -4,7 +4,7 @@ ENV KUSERFEEDBACK_VERSION=21681a1e2e2e8571fe045d3ebd12cb1d0877a96e
 
 RUN a2enmod rewrite authnz_ldap
 RUN apt-get update \
-	&& apt-get -y install libmysqlclient-dev git \
+	&& apt-get -y install libmariadbclient-dev git \
 	&& rm -rf /var/lib/apt/lists/*
 RUN docker-php-ext-install -j$(nproc) pdo_mysql
 COPY php.ini /usr/local/etc/php/
